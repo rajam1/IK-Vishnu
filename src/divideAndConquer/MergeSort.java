@@ -7,7 +7,7 @@ public class MergeSort {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(5, 8, 3, 9, 4, 1, 7));
         ArrayList<Integer> output = merge_sort(arr);
-        System.out.println(output.toString());
+        System.out.println(output);
     }
 
     private static ArrayList<Integer> merge_sort(ArrayList<Integer> arr) {
